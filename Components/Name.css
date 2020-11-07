@@ -7,11 +7,11 @@
     transform: translate(-50%,-50% );
 }
 
-h2
+.name h2
 {
     color: white;
-    font-size: 30px;
-    font-family:  "Comic Sans MS", cursive, sans-serif;
+    font-size: 40px;
+    font-family: serif;
 }
 
 svg
@@ -174,7 +174,7 @@ path:nth-child(21)
     padding-bottom: 25px;
 }
 
-.btn
+.button
 {
     position: absolute;
     left: 50%;
@@ -183,19 +183,19 @@ path:nth-child(21)
     font-size: 20px;
     font-family:"Lucida Console", "Monaco", monospace;
     border-radius: 20px;
-    background-color: #fff;
-    color: black;
-    box-shadow: 0 6px rgba(13, 12, 11,0.2);
+    cursor: pointer;
+    background: linear-gradient(90deg,#0162c8, #36e5eb);
+    color: white;
+    box-shadow: 0 6px rgba(255, 255, 255,0.2);
     letter-spacing: 2px;
     text-decoration: none;
 }
 
-.btn:hover
+.button:hover
 {
-    cursor: pointer;
     color: white;
-    background: linear-gradient(90deg,#0162c8, #36e5eb);
-    transform: linear 0.5s;
+    font-size: 22px; 
+    text-decoration: none;
 }
 
 @keyframes anime
@@ -254,13 +254,17 @@ path:nth-child(21)
          transform: perspective(7000px) rotateX(-1deg) translateY(-135px);
     }
 
+    .road
+    {
+        top: 67%;
+    }
     svg
     {
         width:400px;
     }
     h2
     {
-        font-size: 25px;
+        font-size: 30px;
     }
 }
 
@@ -269,6 +273,7 @@ path:nth-child(21)
 {
     .run
     {
+        top: 50%;
         left: -12%;
          transform: perspective(10000px) rotateX(-0.1deg) translateY(-135px);
     }
@@ -292,7 +297,7 @@ path:nth-child(21)
     }
     h2
     {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .btn

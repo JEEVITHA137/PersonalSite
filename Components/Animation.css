@@ -33,7 +33,7 @@
     height: 2.1vw;
     background: #333;
     background-size: 120px;
-    bottom: -2vw;
+    bottom: -2.1vw;
     transform-origin: top;
     transform: perspective(500px) rotateX(-25deg);
 }

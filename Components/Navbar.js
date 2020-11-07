@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import Logo from '../Logo';
 import MenuIcon from '../menu.png';
 import CloseIcon from '../cancel.png';
 import './Navbar.css';
@@ -17,8 +18,9 @@ render(){
   return(
     <div className ="top">
       <div className = "header"> 
-      <h2 className="logo" >Gv</h2>
+      <img src={Logo}  alt="" className="logo" />
       <img src={MenuIcon}  alt="" className = "menubar" onClick={this.navToggle}/>
+      <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet"></link>
       </div>
        <nav className={(this.state.showNav ? "menushow" : "menuhide")}>
          <img src={CloseIcon}  alt="" className = "closebar" onClick={this.navToggle}/>

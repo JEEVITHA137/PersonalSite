@@ -1,0 +1,21 @@
+h1
+{
+    text-align: center;
+    color: #0162c8;
+    font-size: 50px;
+    padding: 45px 0px 10px;
+}
+
+.contact
+{
+    display: flex;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.contact img
+{
+    width: 50px;
+    padding-bottom: 5px;
+}
