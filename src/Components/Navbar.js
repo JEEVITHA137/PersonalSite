@@ -1,11 +1,12 @@
 import React,{Component} from 'react';
-import * as FaIcons from "react-icons/fa";
-import CloseIcon from '../cancel.png';
+import Logo from '../Logo';
+import MenuIcon from '../menu.png';
 import './Navbar.css';
 
 class Navbar extends Component{
 
-  state = {showNav:false}
+  state = {showNav:false,headerbackground:false}
+
 
   navToggle = () => {
     this.setState({
@@ -15,10 +16,12 @@ class Navbar extends Component{
 
 render(){
   return(
-    <div className ="top">
-      <FaIcons.FaBars className = "menubar" onClick={this.navToggle}/>
+    <div className="top">
+      <div className = "header active"> 
+        <img src={Logo}  alt="" className="logo" />
+        <img src={MenuIcon}  alt="" className = "menubar" onClick={this.navToggle}/>
+      </div>
        <nav className={(this.state.showNav ? "menushow" : "menuhide")}>
-         <img src={CloseIcon}  alt="" className = "closebar" onClick={this.navToggle}/>
          <ul>
            <li data-text = "Home"><span><a href="/#">Home</a></span></li>
            <li data-text = "About"><span><a href="/#">About</a></span></li>

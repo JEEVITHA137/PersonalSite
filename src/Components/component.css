@@ -1,0 +1,59 @@
+h1
+{
+    text-align: center;
+    color: #0162c8;
+    font-size: 50px;
+    padding: 35px 0px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.line
+{
+    border-top: 1px solid #0162c8;
+    
+}
+
+.contact
+{
+    display: flex;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact img
+{
+    width: 50px;
+    padding-bottom: 5px;
+}
+
+.about
+{
+    margin: 25px;
+}
+
+
+.about h4
+{
+    padding: 0 50px;
+    line-height: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.educational
+{
+    margin: 25px;
+    padding: 0px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 7px 0px;
+    background-color: #26d0ce;
+    color: white;
+    text-align: center;
+}

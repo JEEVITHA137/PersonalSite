@@ -2,21 +2,25 @@
 .name
 {
     position: absolute;;
-    top: 40%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%,-50% );
 }
 
-h2
+.name h2
 {
     color: white;
-    font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-family: serif;
 }
 
 svg
 {
+    width:50vw;
+    height: auto;
     animation: fill 0.5s ease forwards 2.8s;
+    padding-top:15px;
+    padding-bottom: 15px;
 }
 
 path:nth-child(1)
@@ -166,6 +170,35 @@ path:nth-child(21)
     animation: anime 1s ease forwards 2.8s;
 }
 
+.quotes
+{
+    padding-bottom: 25px;
+}
+
+.button
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 15px;
+    font-size: 20px;
+    font-family:"Lucida Console", "Monaco", monospace;
+    border-radius: 20px;
+    cursor: pointer;
+    background: linear-gradient(90deg,#0162c8, #36e5eb);
+    color: white;
+    box-shadow: 0 6px rgba(255, 255, 255,0.2);
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.button:hover
+{
+    color: white;
+    font-size: 22px; 
+    text-decoration: none;
+}
+
 @keyframes anime
 {
     to
@@ -183,5 +216,116 @@ path:nth-child(21)
     to
     {
         fill: white;
+    }
+}
+
+@media only screen and (max-width: 900px)
+{
+    .run
+    {
+        transform: perspective(600px) rotateX(-20deg) translateY(-95px);
+    }
+
+    .road
+    {
+        height: 12vw;
+    }
+
+    .shadow
+    {
+        bottom: -47%;
+    }
+    svg
+    {
+        width:500px;
+    }
+}
+
+@media only screen and (max-width: 700px)
+{
+    .run
+    {
+        left: -2%;
+        transform: perspective(600px) rotateX(-2deg) translateY(-120px);
+    }
+    .btn
+    {
+        padding: 8px 12px;
+        font-size: 20px;
+        letter-spacing: 0px;
+    }
+}
+
+@media only screen and (max-width: 540px)
+{
+    .run
+    {
+        left: -8%;
+         transform: perspective(7000px) rotateX(-1deg) translateY(-135px);
+    }
+
+    .road
+    {
+        top: 67%;
+    }
+    svg
+    {
+        width:420px;
+    }
+    .name h2
+    {
+        font-size: 35px;
+    }
+}
+
+
+@media only screen and (max-width: 450px)
+{
+    .run
+    {
+        top: 20%;
+        left: -12%;
+        transform: perspective(10000px) rotateX(-0.1deg) translateY(-135px);
+    }
+
+    .road
+    {
+        height: 15vw;
+        top: 64%;
+    }
+
+    .shadow
+    {
+        bottom: -38%;
+    }
+
+    svg
+    {
+        width:350px;
+    }
+}
+
+@media only screen and (max-width: 359px)
+{
+    .road
+    {
+        bottom: 30%;
+    }
+
+    svg
+    {
+        width:300px;
+    }
+    .name h2
+    {
+        font-size: 30px;
+    }
+
+    .btn
+    {
+        padding: 5px 10px;
+        font-size: 15px;
+        box-shadow: 0 6px rgba(13, 12, 11,0.2);
+        letter-spacing: 0px;
     }
 }
