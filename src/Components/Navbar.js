@@ -7,6 +7,20 @@ class Navbar extends Component{
 
   state = {showNav:false,headerbackground:false}
 
+  changebackground = () => {
+    if(window.scrollY>30)
+    {
+        this.setState({
+          headerbackground:true
+      });
+    }
+    else
+    {
+        this.setState({
+          headerbackground:false
+      });
+    }
+  }
 
   navToggle = () => {
     this.setState({
@@ -14,10 +28,14 @@ class Navbar extends Component{
     });
   }
 
+  componentDidMount() {
+    window.addEventListener('scroll', this.changebackground, true);
+  }
+
 render(){
   return(
     <div className="top">
-      <div className = "header active"> 
+      <div className = {(this.state.headerbackground ? "header active" : "header")}> 
         <img src={Logo}  alt="" className="logo" />
         <img src={MenuIcon}  alt="" className = "menubar" onClick={this.navToggle}/>
       </div>

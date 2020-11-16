@@ -8,7 +8,7 @@ import './App.css';
 function App() {
   return(
     <body>
-      <div>
+      <div >
         <Navbar/>
         <Name/>
       </div>

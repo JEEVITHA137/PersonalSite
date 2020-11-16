@@ -9,7 +9,9 @@ class Contact extends Component{
 render(){
   return(
       <div>
+      <div className="container">
           <h1>Contact</h1>
+          <div className="row justify-content-center"><hr className="headingline"></hr> </div>
           <div className="row contact">
               <div className = "col-sm-5">
                   <img src = {Call} alt=" "></img>
@@ -21,6 +23,7 @@ render(){
                   <h4>Email</h4>  
                   <h5>jeevithasakthi137@gmail.com</h5>
               </div>
+          </div>
           </div>
           <div className="footer">
               <h4>Designed by Jeevitha Venkatesan</h4>

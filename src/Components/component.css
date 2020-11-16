@@ -2,15 +2,31 @@ h1
 {
     text-align: center;
     color: #0162c8;
-    font-size: 50px;
-    padding: 35px 0px 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    padding: 35px 0px 0px;
+    font-weight: bolder;
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
+}
+
+h4
+{
+    font-size: 1.2rem;
+}
+
+h5
+{
+    font-size: 1.1rem;
+}
+
+.headingline
+{
+    border-top: 4px solid #26d0ce;
+    width: 60px;
 }
 
 .line
 {
-    border-top: 1px solid #0162c8;
-    
+    margin-top: 40px;
 }
 
 .contact
@@ -31,7 +47,6 @@ h1
     margin: 25px;
 }
 
-
 .about h4
 {
     padding: 0 50px;
@@ -39,6 +54,34 @@ h1
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.about .socialicons
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.about .icons
+{
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    background:  linear-gradient(90deg,
+    #1a2980,
+    #26d0ce);
+    padding: 3px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: -2px -2px 3px rgba(30, 161, 179,0.2),
+                3px 3px 3px rgba(0,0,0,0.2);
+}
+
+.about .icons:hover
+{
+    background: transparent;
+    color: #1ea1b3;
+    cursor: pointer;
+}
 
 .educational
 {
@@ -51,9 +94,10 @@ h1
 {
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
     padding: 7px 0px;
     background-color: #26d0ce;
     color: white;
     text-align: center;
 }
+
