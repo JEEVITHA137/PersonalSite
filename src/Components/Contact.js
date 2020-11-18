@@ -21,7 +21,7 @@ render(){
                <div className="col-sm-7">
                   <img src = {Email} alt=" "></img>
                   <h4>Email</h4>  
-                  <h5>jeevithasakthi137@gmail.com</h5>
+                  <h5 className="text-break">jeevithasakthi137@gmail.com</h5>
               </div>
           </div>
           </div>

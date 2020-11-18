@@ -4,7 +4,6 @@ h1
     color: #0162c8;
     font-size: 2rem;
     padding: 35px 0px 0px;
-    font-weight: bolder;
     font-family: Verdana, "Geneva", Tahoma, sans-serif;
 }
 
@@ -16,6 +15,7 @@ h4
 h5
 {
     font-size: 1.1rem;
+    text-align: center;
 }
 
 .headingline
@@ -24,10 +24,6 @@ h5
     width: 60px;
 }
 
-.line
-{
-    margin-top: 40px;
-}
 
 .contact
 {
@@ -42,10 +38,7 @@ h5
     padding-bottom: 5px;
 }
 
-.about
-{
-    margin: 25px;
-}
+
 
 .about h4
 {
@@ -65,7 +58,7 @@ h5
 {
     width: 40px;
     height: 40px;
-    margin: 0 10px;
+    margin: 0 20px;
     background:  linear-gradient(90deg,
     #1a2980,
     #26d0ce);
@@ -85,9 +78,33 @@ h5
 
 .educational
 {
-    margin: 25px;
-    padding: 0px 15px;
+    justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.educational h5
+{
+    font-size: 22px;
+}
+
+.card-body  p:nth-child(2)
+{
+    font-size: 19px;
+    text-align: center;
+}
+
+.card-body  p:nth-child(3)
+{
+    font-size: 19px;
+    text-align: center;
+}
+
+.percentage
+{
+    color: #0162c8;
+    font-family: Verdana;
+    font-size: 19px;
+    text-align: center;
 }
 
 .footer
@@ -101,3 +118,10 @@ h5
     text-align: center;
 }
 
+@media only screen and (max-width: 350px)
+{
+    h5
+    {
+        font-size: auto;
+    }
+}
