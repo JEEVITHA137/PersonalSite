@@ -1,3 +1,4 @@
+
 h1
 {
     text-align: center;
@@ -5,6 +6,14 @@ h1
     font-size: 2rem;
     padding: 35px 0px 0px;
     font-family: Verdana, "Geneva", Tahoma, sans-serif;
+}
+
+h1:hover
+{
+    transform: rotate(180deg) translateY(-200px);
+    transition: 1.5s;
+    filter: blur(20px);
+    opacity: 0;
 }
 
 h4
@@ -187,7 +196,7 @@ h5
     font-family: Verdana, "Geneva", Tahoma, sans-serif; 
 }
 
-.hobbyprojects span
+.hobbyprojects span, .hobbies span
 {
     color: #0162c8;
 }
@@ -228,6 +237,11 @@ h5
     letter-spacing: 2px;
     color: gray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hobbies p:hover
+{
+    text-shadow: 3px 3px  rgba(27,30,33,0.3);
 }
 
 .hobbies h3

@@ -21,21 +21,21 @@ render(){
                <div className="col-sm-7 pb-4 pt-3">
                   <img src = {Email} alt=" "></img>
                   <h4>Email</h4>  
-                  <h5 className="text-break">jeevithasakthi137@gmail.com</h5>
+                  <h5 className="text-break" >jeevithasakthi137@gmail.com</h5>
               </div>
           </div>
           </div>
-          <div className="footer">
-              <div className="row d-flex justify-content-center p-4">
+          <div className="footer d-flex justify-content-center">
+             
               <div className="col-sm-6">
               <h3 className="pt-1">About the site</h3>
               <h6>This site is build on React with the help of Bootstrap 4</h6>
               <a href="https://github.com/JEEVITHA137/PersonalSite" target="_blank" rel="noopener noreferrer">Repository Link</a>
               </div>
-              <div className="col-sm-6">
+              <div className="col-sm-5">
               <h4 className="pt-3">Designed by <br/><a href="https://www.linkedin.com/in/jeevithavenkatesan137" target="_blank" rel="noopener noreferrer">Jeevitha Venkatesan</a></h4>
               </div>
-              </div>
+        
           </div>
       </div>
     );

@@ -33,7 +33,9 @@ function Hobbies() {
         <h3 className="p-3 col-sm-9">Silambam</h3>
         <p className="row justify-content-center">"An integral part of Tamil Culture"</p>
         </div>
-        <h5>The Team Coordinator of College Silambam Team</h5>
+
+        <h5>It is a good form of cardio workout that improves blood circulation and heart function.</h5>
+        <h5 className="pt-2">The <span>Team Coordinator</span> of College Silambam Team.</h5>
 
         <hr className="line"></hr>
         </div>

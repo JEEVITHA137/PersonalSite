@@ -5,13 +5,13 @@ function Projects() {
         <div class="projects container">
         <h1>Projects</h1>
         <div className="row justify-content-center"><hr className="headingline"></hr> </div>
-        <div className="row d-flex  pt-5">
+        <div className="row d-flex  pt-3">
         <p className="col-sm-5"><h3>Intern Project</h3>A Full stack Website like Khan Academy. Learners Can watch the tutorials and attend the quiz and their activities are recorded in dashboard, the teachers can upload the new course  and their quiz, after the admin approval the courses are added into the site, and everything are completely monitored by Admin.</p>
         <img className="col-sm-7" src="./intern.jpg" alt=""></img>
         </div>
         
         <div className="row d-flex pt-5">
-        <img className="w-100 col-sm-7 " src="./ConferenceSite.png" alt=""></img>
+        <img className="w-100 col-sm-7 pt-3" src="./ConferenceSite.png" alt=""></img>
         <p className="col-sm-5"><h3>Mini Project</h3>To Retrieve the IOT data from the IOT Device,Stored it in the cloud and access it through the Website.It is created to analyze the IOT lab experiments data.
         <br/><a className="btn" href="https://github.com/JEEVITHA137/Mini_Project_" target="_blank" rel="noopener noreferrer">Repository Link </a></p>
         </div>
