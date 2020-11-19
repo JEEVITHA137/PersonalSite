@@ -1,3 +1,13 @@
+.anime-box
+{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100vw;
+    height: 94vh;
+    overflow: hidden;
+}
+
 .road
 {
     position: absolute;

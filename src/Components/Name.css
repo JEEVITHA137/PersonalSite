@@ -190,29 +190,6 @@ path:nth-child(11)
     padding-bottom: 25px;
 }
 
-.button
-{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 10px 15px;
-    font-size: 20px;
-    font-family:"Lucida Console", "Monaco", monospace;
-    border-radius: 20px;
-    cursor: pointer;
-    background: linear-gradient(90deg,#0162c8, #36e5eb);
-    color: white;
-    box-shadow: 0 6px rgba(255, 255, 255,0.2);
-    letter-spacing: 2px;
-    text-decoration: none;
-}
-
-.button:hover
-{
-    color: white;
-    font-size: 22px; 
-    text-decoration: none;
-}
 
 @keyframes anime
 {

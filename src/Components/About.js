@@ -14,7 +14,7 @@ function About() {
       <h1>About Me</h1>
       <div className="row justify-content-center"><hr className="headingline"></hr> </div>
       <div class="row d-flex justify-content-center mb-1">
-      <div >
+      <div class="col-md-8 pb-4">
       <h4>A Passionate Learner who wants to explore the joy of innovation with programming in all possible ways and tries to shine in every aspect of it.</h4>
       </div>
       </div>
@@ -22,7 +22,7 @@ function About() {
         <a className="iconsize" href="https://www.linkedin.com/in/jeevithavenkatesan137" target="_blank" rel="noopener noreferrer"><FaIcons.FaLinkedin className="icons"/></a>
         <a className="iconsize" href="https://github.com/JEEVITHA137" target="_blank" rel="noopener noreferrer"><FaIcons.FaGithub className="icons" /></a>
         <a className="iconsize" href="https://www.hackerrank.com/jeevithasakthi11" target="_blank" rel="noopener noreferrer"><FaIcons.FaHackerrank className="icons"/></a>
-        <a className="iconsize" href="https://auth.geeksforgeeks.org/user/jeevithasakthi137/practice/" target="_blank" rel="noopener noreferrer"><img className="icons" onMouseOver={changeBackground} onMouseOut={changeOriginal} src='./1.png' alt="" /></a>
+        <a className="iconsize" href="https://auth.geeksforgeeks.org/user/jeevithasakthi137/practice/" target="_blank" rel="noopener noreferrer"><img className="icons" onMouseOver={changeBackground} onMouseOut={changeOriginal} src='./1.png' alt=""/></a>
       </div>
       <hr className="line"></hr>
     </div>

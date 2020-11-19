@@ -4,7 +4,7 @@ class RunAnimation extends Component{
 
 render(){
   return(
-    <div>
+    <div className="anime-box"> 
         <div className="road">
         <div className="shadow"></div>
         <div className="run"></div>

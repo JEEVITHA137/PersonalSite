@@ -10,6 +10,7 @@ h1
 h4
 {
     font-size: 1.2rem;
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
 }
 
 h5
@@ -24,22 +25,12 @@ h5
     width: 60px;
 }
 
-
-.contact
+.line
 {
-    display: flex;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
 }
 
-.contact img
-{
-    width: 50px;
-    padding-bottom: 5px;
-}
-
-
-
+/* About */
 .about h4
 {
     padding: 0 50px;
@@ -76,6 +67,7 @@ h5
     cursor: pointer;
 }
 
+/* Educational */
 .educational
 {
     justify-content: center;
@@ -85,6 +77,12 @@ h5
 .educational h5
 {
     font-size: 22px;
+}
+
+.socialicons ul,.hobbies ul
+{
+    justify-content: center;
+    text-align: right;
 }
 
 .card-body  p:nth-child(2)
@@ -107,16 +105,168 @@ h5
     text-align: center;
 }
 
+/* specailskills */
+.specailskills li,.hobbies li
+{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.specailskills .icons , .hobbies .icons
+{
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+    color:  #0162c8;
+}
+
+
+.iconsize:hover  .icons ,.iconsize:hover .icons
+{
+    cursor: pointer;
+    color:  #26d0ce;
+    transform: scaleX(1px);
+}
+
+.iconsize:hover  li
+{
+    text-shadow: 3px 3px  rgba(27,30,33,0.3);
+}
+
+/* Projects */
+.projects p
+{
+    font-size: 1.3rem;
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
+}
+
+.projects img
+{
+    height:350px;
+}
+
+.projects h3
+{
+    color: #0162c8;
+    font-size: 1.8rem;
+    padding: 35px 0px 0px;
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
+}
+
+.projects .btn
+{
+    position: relative;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 8px;
+    font-family:"Lucida Console", "Monaco", monospace;
+    border-radius: 100px;
+    cursor: pointer;
+    background: linear-gradient(90deg,#0162c8, #36e5eb);
+    color: white;
+    box-shadow: -2px -2px 3px rgba(30, 161, 179,0.2),
+                3px 3px 3px rgba(0,0,0,0.2);
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.projects .btn:hover
+{
+    color: white;
+    background: linear-gradient(90deg, #36e5eb ,#0162c8);
+    text-decoration: none;
+}
+
+.projects video
+{
+    width: 100%;
+}
+
+.hobbyprojects p
+{
+    font-size: 1.2rem;
+    font-family: Verdana, "Geneva", Tahoma, sans-serif; 
+}
+
+.hobbyprojects span
+{
+    color: #0162c8;
+}
+
+/* contact */
+.contact
+{
+    display: flex;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact img
+{
+    width: 50px;
+    padding-bottom: 5px;
+}
+
+/* Hobbies */
+.hobbies
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hobbies img
+{
+    width: 50%;
+}
+
+.hobbies h5
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hobbies p
+{
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hobbies h3
+{
+    color: #0162c8;
+    font-size: 1.8rem;
+    padding: 10px 0px ;
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
+    text-align: center;
+}
+
+/* FOOTER */
 .footer
 {
     left: 0;
     bottom: 0;
     width: 100vw;
-    padding: 7px 0px;
-    background-color: #26d0ce;
     color: white;
+    background-color: #26d0ce;
     text-align: center;
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
+
 }
+
+.footer h4
+{
+    line-height: 40px;
+}
+
+.footer a
+{
+    color: white;
+}
+
+.footer a:hover
+{
+    color: white;
+}
+
 
 @media only screen and (max-width: 350px)
 {
