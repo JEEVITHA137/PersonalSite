@@ -12,7 +12,7 @@ function Education() {
             <h5 class="card-title"> <img class="card-img-top w-25 pr-3" src="./Graduate.png" alt="Cardcap"/>2017-2021</h5>
             <p class="card-text text-align-center">Government College of Technology, Coimbatore</p>
             <p class="card-text">B.Tech - IT</p>
-            <p class="card-text percentage">CGPA - 8.22*</p>
+            <p class="card-text percentage">CGPA - 7.78*</p>
          </div>
       </div>
       <div class="card shadow-lg p-3 mb-5 bg-white rounded">

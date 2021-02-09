@@ -31,7 +31,7 @@ function Projects() {
         <div className="row d-flex pt-5">
         <p className="col-sm-5"><h3>Choclate FullStack Site</h3>It is a FullStack Website. User can able to search the products using filters, add the products to cart, update the address and buy the products. Admin can able to see the products, change the quantity of the products, add the new products and update the status of ordered product.
         <br/><a className="btn" href="https://gvchoclatesite.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Link </a></p>
-        <img className="w-100 col-sm-7 shadow-lg p-1 bg-white rounded" src="./chocosite.png" alt=""></img>
+        <img className="w-100 col-sm-7 shadow-lg p-1 bg-white rounded" src="./choclatesite.png" alt=""></img>
         </div>
 
         <div className="hobbyprojects">
