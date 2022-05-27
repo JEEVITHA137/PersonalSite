@@ -10,7 +10,7 @@ render(){
   return(
       <div>
       <div className="container">
-          <h1>Contact</h1>
+          <div className="title">Contact</div>
           <div className="row justify-content-center"><hr className="headingline"></hr> </div>
           <div className="row contact">
               <div className = "col-sm-5 pb-4 pt-3">

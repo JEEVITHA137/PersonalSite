@@ -4,7 +4,7 @@ import './component.css';
 function Specailskills() {
     return(
         <div class="specailskills container">
-        <h1>Special Skills</h1>
+        <div className="title">Special Skills</div>
         <div className="row justify-content-center"><hr className="headingline"></hr> </div>
         <div className="row d-flex justify-content-center mb-1 ">
         <ul>

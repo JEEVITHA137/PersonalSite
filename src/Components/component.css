@@ -1,49 +1,49 @@
 h1
 {
     text-align: center;
-    color: #0162c8;
-    font-size: 2rem;
+    color: #950740;
+    font-size: 2vw;
     padding: 35px 0px 0px;
     font-family: Verdana, "Geneva", Tahoma, sans-serif;
 }
 
-h1:hover
+.title
 {
-    transform: rotate(180deg) translateY(-200px);
-    transition: 1.5s;
-    filter: blur(20px);
-    opacity: 0;
-}
-
-h4
-{
-    font-size: 1.2rem;
-    font-family: Verdana, "Geneva", Tahoma, sans-serif;
-}
-
-h5
-{
-    font-size: 1.1rem;
     text-align: center;
+    font-size: calc(1.2rem + 1vw);
+    color: #950740;
+    padding: 30px 0px 0px;
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
+    text-shadow:  1.5px 1.5px 1.5px #950740;
 }
 
-.headingline
+.about {
+    cursor:  url('../bg.jpg'), auto;
+}
+
+.about img{
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    min-width: 200px;
+    cursor:  url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fseehowitisdone.com%2Fhow-to-capture-the-mouse-cursor-in-a-screenshot-in-windows-10-example%2F&psig=AOvVaw2WOcFEc9jumFFcf9MVDR5F&ust=1653580659484000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLDxwJKC-_cCFQAAAAAdAAAAABAD'), pointer;
+}
+
+.about .section{
+    max-width: 100% important;
+}
+
+p
 {
-    border-top: 4px solid #26d0ce;
-    width: 60px;
+    font-size: calc(0.75rem + 0.5vw);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
 }
 
 .line
 {
     margin-top: 40px;
-}
-
-/* About */
-.about h4
-{
-    padding: 0 50px;
-    line-height: 35px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .about .socialicons
@@ -55,12 +55,11 @@ h5
 
 .about .icons
 {
-    width: 40px;
-    height: 40px;
-    margin: 0 20px;
-    background:  linear-gradient(90deg,
-    #1a2980,
-    #26d0ce);
+    width: calc(1.5rem + 1vw);
+    min-width: 1rem;
+    height: calc(1.5rem + 1vw);
+    min-height: 1rem;
+    background: #C3073F;
     padding: 3px;
     border-radius: 5px;
     color: white;
@@ -71,7 +70,7 @@ h5
 .about .icons:hover
 {
     background: transparent;
-    color: #1ea1b3;
+    color: #4E4E50;
     cursor: pointer;
 }
 
@@ -107,7 +106,7 @@ h5
 
 .percentage
 {
-    color: #0162c8;
+    color: #C3073F;
     font-family: Verdana;
     font-size: 19px;
     text-align: center;
@@ -124,40 +123,45 @@ h5
     width: 50px;
     height: 50px;
     padding: 3px;
-    color:  #0162c8;
+    color:  #C3073F;
 }
 
+.iconsize 
+{
+    margin: 0 calc(1rem + 1vw);
+    line-height: 1rem;
+}
 
 .iconsize:hover  .icons ,.iconsize:hover .icons
 {
+    background: white;
+    color: #C3073F;
     cursor: pointer;
-    color:  #26d0ce;
+    /* color:  #4E4E50; */
     transform: scaleX(1px);
-}
-
-.iconsize:hover  li
-{
-    text-shadow: 3px 3px  rgba(27,30,33,0.3);
 }
 
 /* Projects */
 .projects p
 {
-    font-size: 1.3rem;
+    font-size: calc(0.75rem + 0.5vw);
     font-family: Verdana, "Geneva", Tahoma, sans-serif;
 }
 
 .projects img
 {
-    height:350px;
+    width: 80%;
+    height: 100%
 }
 
 .projects h3
 {
-    color: #0162c8;
-    font-size: 1.8rem;
+    color: #C3073F;
     padding: 35px 0px 0px;
     font-family: Verdana, "Geneva", Tahoma, sans-serif;
+    text-align: center;
+    font-size: calc(1.2rem + 1vw);
+    text-shadow:  1.5px 1.5px 1.5px #C3073F;
 }
 
 .projects .btn
@@ -169,7 +173,7 @@ h5
     font-family:"Lucida Console", "Monaco", monospace;
     border-radius: 100px;
     cursor: pointer;
-    background: linear-gradient(90deg,#0162c8, #36e5eb);
+    background: linear-gradient(90deg,#C3073F, #36e5eb);
     color: white;
     box-shadow: -2px -2px 3px rgba(30, 161, 179,0.2),
                 3px 3px 3px rgba(0,0,0,0.2);
@@ -180,7 +184,7 @@ h5
 .projects .btn:hover
 {
     color: white;
-    background: linear-gradient(90deg, #36e5eb ,#0162c8);
+    background: linear-gradient(90deg, #36e5eb ,#C3073F);
     text-decoration: none;
 }
 
@@ -191,13 +195,13 @@ h5
 
 .hobbyprojects p
 {
-    font-size: 1.2rem;
+    font-size: calc(0.75rem + 0.5vw);
     font-family: Verdana, "Geneva", Tahoma, sans-serif; 
 }
 
 .hobbyprojects span, .hobbies span
 {
-    color: #0162c8;
+    color: #C3073F;
 }
 
 /* contact */
@@ -232,7 +236,7 @@ h5
 
 .hobbies p
 {
-    font-size: 1.2rem;
+    font-size: calc(0.75rem + 0.5vw);
     letter-spacing: 2px;
     color: gray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -245,7 +249,7 @@ h5
 
 .hobbies h3
 {
-    color: #0162c8;
+    color: #C3073F;
     font-size: 1.8rem;
     padding: 10px 0px ;
     font-family: Verdana, "Geneva", Tahoma, sans-serif;

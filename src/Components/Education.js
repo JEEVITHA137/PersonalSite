@@ -4,7 +4,7 @@ import './component.css';
 function Education() {
   return(
     <div className="educational container justify-content-center">
-      <h1 className="text-break">Educational Qualification</h1>
+      <div className="title">Educational Qualification</div>
       <div className="row d-flex justify-content-center"><hr className="headingline"></hr> </div>
       <div class="card-deck pt-4 justify-content-center">
       <div class="card shadow-lg p-3 mb-5 bg-white rounded">
