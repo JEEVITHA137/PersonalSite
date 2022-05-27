@@ -6,7 +6,6 @@ import Experience from './Components/Experience';
 import SpecialSkills from './Components/SpecialSkills.js';
 import Projects from './Components/Project.js';
 import Hobbies from './Components/Hobbies.js';
-import './Components/Header.css';
 import './App.css';
 
 
