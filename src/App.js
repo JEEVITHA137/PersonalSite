@@ -1,74 +1,52 @@
-import Name from './Components/Name.js';
+import React,{Component} from 'react';
 import About from './Components/About.js';
 import Contact from './Components/Contact.js';
 import Education from './Components/Education.js';
+import Experience from './Components/Experience';
 import SpecialSkills from './Components/SpecialSkills.js';
 import Projects from './Components/Project.js';
 import Hobbies from './Components/Hobbies.js';
-import React,{Component} from 'react';
-import Logo from './Logo';
-import MenuIcon from './menu.png';
-import './Components/Navbar.css';
+import './Components/Header.css';
 import './App.css';
 
 
 class App extends Component{
-
-  state = {showNav:false,headerbackground:false}
-
-  changebackground = () => {
-    if(window.scrollY>20)
-    {
-        this.setState({
-          headerbackground:true
-      });
-    }
-    else
-    {
-        this.setState({
-          headerbackground:false
-      });
-    }
-  }
-
-  navToggle = () => {
-    this.setState({
-        showNav:!this.state.showNav
-    });
-  }
-
-  componentDidMount() {
-    window.addEventListener('scroll', this.changebackground, true);
-  }
-
 render(){
   return(
-    <body>
+    <div className='main'>
       <div >
         <div className="top">
-        <div className = {(this.state.headerbackground ? "header active" : "header")}> 
-          <img src={Logo}  alt="" className="logo"/>
-          <img src={MenuIcon}  alt="" className = "menubar" onClick={this.navToggle}/>
+          <div>
+          <div className = "header"> 
+          {/* <video autoPlay loop muted>
+            <source src='./background.mp4' type='video/mp4'/>
+          </video>
+           */}
+          <div className="text">
+          <h4 className="name">I'M JEEVITHA VENKATESAN</h4>
+            <h2 className="role">PRODUCT DEVELOPER</h2>
+          </div>
         </div>
-        <nav className={(this.state.showNav ? "menushow" : "menuhide")}>
+        </div>
+        <nav className="menushow">
           <ul>
-            <li data-text = "Home"><span><a href="/#" onClick={this.navToggle}>Home</a></span></li>
-            <li data-text = "Education"><span><a href="/#Education" onClick={this.navToggle}>Education</a></span></li>
-            <li data-text = "Project"><span><a href="/#Project" onClick={this.navToggle}>Project</a></span></li>
-            <li data-text = "Hobbies"><span><a href="/#Hobbies" onClick={this.navToggle}>Hobbies</a></span></li>
-            <li data-text = "Contact"><span><a href="/#Contact" onClick={this.navToggle}>Contact</a></span></li>
+            <li><a href="/#" ><div className='d-flex logo-panel'><img src="logo_background.gif" alt=""/><img src='./logo.png'  alt=""/></div></a></li>
+            <li><a href="/#About"><img src='./about.gif' alt=""/></a></li>
+            <li><a href="/#Project"><img src='./projects.gif' alt=""/></a></li>
+            <li><a href="/#Hobbies"><img src='./hobbies.gif' alt=""/></a></li>
+            <li><a href="/#Contact"><img src='./contact.gif' alt=""/></a></li>
           </ul>
         </nav>
       </div>
-        <Name />
       </div>
       <About/>
+      <div id="Experience"><Experience/></div>
       <div id="Education"><Education/></div>
       <SpecialSkills/>
       <div id="Project"><Projects/></div>
       <div id="Hobbies"><Hobbies/></div>
       <div id="Contact"><Contact/></div>
-    </body>
+    </div>
   );
 }
 }

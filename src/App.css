@@ -1,4 +1,132 @@
-body
-{
+html {
     scroll-behavior: smooth;
+
+}
+
+.main {
+    scroll-behavior: smooth;
+    background-color: #1A1A1D;
+    color: white;
+    text-align: center;
+}
+
+.header {
+    position: relative;
+    width: 100vw;
+    height: 30vh;
+    overflow: hidden;
+}
+
+.header video {
+    width: 100vmax;
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+
+.header .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+}
+
+.header .text .name {
+    font-size: calc(0.5rem + 2vw);
+    font-weight: bolder;
+}
+
+.header .text .role {
+    font-size: calc(0.75rem + 4.5vw);
+    font-weight: bolder;
+    background: url('./text_background.png');
+    background-size: 70%;
+    background-position: 50% 50%;
+    -webkit-background-clip: text;
+    color: rgba(0, 0, 0, 0.08);
+    animation: zoomout 25s ease 500ms forwards infinite;
+    -webkit-text-stroke: 1px #4E4E50;
+}
+
+.menushow
+{
+    display: flex;
+    align-items: center;
+    height: calc(12rem + 140vh);
+    position: fixed;
+    top: calc(-20% - 6rem);
+    left: calc(1rem - 47vw);
+    /* left: 0%; */
+    width:50%;
+    background-color: #0d0f1b;
+    overflow: hidden;
+    border-radius: 45%;
+    transform: scale(1);
+}
+
+ul
+{
+    position: inherit;
+    display: flex;
+    flex-direction: column;
+    display: block;
+    right: calc(0.3rem + 0.5vw);
+}
+
+ul li
+{
+    list-style: none;
+    text-align: right;
+    font-size: calc(0.75rem + 1.5vw);
+    color: #C3073F;
+    padding: 6px 0;
+}
+
+.logo-panel
+{
+   margin-bottom: calc(1rem + 1vw);
+}
+
+.logo-panel img{
+    position: absolute;
+    top: 0;
+    bottom: 6px;
+}
+
+ul li img
+{
+    width: calc(0.75rem + 1.5vw);
+    min-width: 1rem;
+    height: calc(0.75rem + 1.5vw);
+    min-height: 1rem;
+}
+
+ul li:hover::before
+{
+    opacity: 0.05;
+}
+
+ul li a:hover
+{
+    cursor: pointer;
+}
+
+@keyframes zoomout {
+    0% {
+        background-size: 70%;
+    }
+
+    50% {
+        background-size: 10%;
+    }
+
+    100% {
+        background-size: 70%;
+    }
 }
