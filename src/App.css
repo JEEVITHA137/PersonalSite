@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
 
 }
 
@@ -105,11 +106,6 @@ ul li img
     min-width: 1rem;
     height: calc(0.75rem + 1.5vw);
     min-height: 1rem;
-}
-
-ul li:hover::before
-{
-    opacity: 0.05;
 }
 
 ul li a:hover
