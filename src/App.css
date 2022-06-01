@@ -13,16 +13,10 @@ html {
 
 .header {
     position: relative;
+    /* background-color: #4E4E50; */
     width: 100vw;
     height: 30vh;
     overflow: hidden;
-}
-
-.header video {
-    width: 100vmax;
-    position: absolute;
-    top: -10px;
-    left: 0;
 }
 
 .header .text {

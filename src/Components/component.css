@@ -19,8 +19,7 @@ h1 {
 }
 
 .about img,
-.experience img,
-.educational img {
+.experience img, .specailskills img, .educational img{
     width: 97%;
     margin-left: auto;
     margin-right: auto;
@@ -153,6 +152,17 @@ ul.rb li .content .institute {
 }
 
 /* specailskills */
+.specailskills li {
+    font-size: calc(0.75rem + 0.5vw);
+    color: #fff;
+    text-align: left;
+}
+
+.specailskills li img{
+    height: 40px;
+    height: 30px;
+}
+
 .specailskills li,
 .hobbies li {
     font-size: calc(0.75rem + 0.5vw);
@@ -161,14 +171,28 @@ ul.rb li .content .institute {
 
 .specailskills .icons,
 .hobbies .icons {
-    width: 50px;
-    height: 50px;
-    padding: 3px;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    color: #fff;
+    border: 0.5px solid #C3073F;
+    /* background-color: #C3073F; */
+    border-radius: 50%;
+}
+
+.specailskills .icons:hover{
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 50%;
     color: #C3073F;
 }
 
+.bulletin {
+    margin: 0 calc(4rem + 2vw);
+    /* line-height: 0.5rem; */
+}
+
 .iconsize {
-    margin: 0 calc(1rem + 1vw);
+    padding: 0 calc(1rem + 1vw);
     line-height: 1rem;
 }
 
@@ -177,8 +201,7 @@ ul.rb li .content .institute {
     background: white;
     color: #C3073F;
     cursor: pointer;
-    /* color:  #4E4E50; */
-    transform: scaleX(1px);
+    /* transform: scaleX(1px); */
 }
 
 /* Projects */
@@ -188,8 +211,9 @@ ul.rb li .content .institute {
 }
 
 .projects img {
-    width: 80%;
-    height: 100%
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .projects h3 {
@@ -325,4 +349,76 @@ ul.rb li .content .institute {
     100% {
         transform: translateY(0px);
     }
+}
+
+.project {
+	background-color: #C3073F;
+	border-radius: 10px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	display: flex;
+	max-width: 100%;
+	margin: 20px;
+	overflow: hidden;
+
+	/* width: 700px; */
+}
+
+.project h6 {
+	opacity: 0.6;
+	margin: 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.project h2 {
+	letter-spacing: 1px;
+	margin: 10px 0;
+}
+
+.project-preview {
+	background-color: #fff;
+	color: #C3073F;
+	padding: 30px;
+	max-width: 60%;
+}
+
+.project-preview p{
+	color: #C3073F;
+}
+
+.project-preview a {
+	color: #C3073F;
+	display: inline-block;
+	font-size:calc(0.75rem + 0.5vw);;
+	opacity: 0.6;
+	margin-top: 30px;
+	text-decoration: none;
+}
+
+.project-info {
+	position: relative;
+	width: 100%;
+    color: #1A1A1D;
+}
+
+.progress-container {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	text-align: right;
+	width: 150px;
+}
+
+.btn {
+	background-color: #2A265F;
+	border: 0;
+	border-radius: 50px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	color: #fff;
+	font-size: 16px;
+	padding: 12px 25px;
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	letter-spacing: 1px;
 }

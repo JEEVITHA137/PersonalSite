@@ -12,9 +12,9 @@ function About() {
   return (
     <div id="About" className="about container">
       <div className="row">
-        <div className="section col-12 col-lg-8">
+        <div className="section col-md-8">
           <div className="title">About Me</div>
-          <div class="row d-flex justify-content-center mb-1">
+          <div class="ow d-flex justify-content-center align-items-center mb-1">
             <div class="col-md-10 pb-4 ml-4">
               <p>A Passionate Learner who wants to explore the joy of innovation with programming in all possible ways and tries to shine in every aspect of it.</p>
             </div>
@@ -26,7 +26,7 @@ function About() {
             <a className="iconsize" href="https://auth.geeksforgeeks.org/user/jeevithasakthi137/practice/" target="_blank" rel="noopener noreferrer"><img className="icons" onMouseOver={changeBackground} onMouseOut={changeOriginal} src='./1.png' alt="" /></a>
           </div>
         </div>
-        <div className="section col-lg-4">
+        <div className="section col-md-4 float-md-end ">
           <img src='./header.gif' alt=""/>
         </div>
       </div>
