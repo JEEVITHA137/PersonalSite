@@ -1,7 +1,6 @@
 html {
     scroll-behavior: smooth;
     font-family: Verdana, "Geneva", Tahoma, sans-serif;
-
 }
 
 .main {
@@ -9,6 +8,7 @@ html {
     background-color: #1A1A1D;
     color: white;
     text-align: center;
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
 }
 
 .header {
@@ -57,12 +57,12 @@ html {
     position: fixed;
     top: calc(-20% - 6rem);
     left: calc(1rem - 47vw);
-    /* left: 0%; */
     width:50%;
     background-color: #0d0f1b;
     overflow: hidden;
     border-radius: 45%;
     transform: scale(1);
+    z-index: 2;
 }
 
 ul
