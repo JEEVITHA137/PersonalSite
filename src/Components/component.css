@@ -64,8 +64,9 @@ p {
 }
 
 .about .icons:hover {
-    background: transparent;
+    background: #fff;
     cursor: pointer;
+    color: #C3073F;
     transition: all 0.7s ease-out;
 }
 
