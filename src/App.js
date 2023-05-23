@@ -1,4 +1,4 @@
-import React,{Component} from 'react';
+import React, {Component} from 'react';
 import About from './Components/About.js';
 import Contact from './Components/Contact.js';
 import Education from './Components/Education.js';
@@ -23,7 +23,7 @@ render(){
            */}
           <div className="text">
           <h4 className="name">I'M JEEVITHA VENKATESAN</h4>
-            <h2 className="role">PRODUCT DEVELOPER</h2>
+            <h2 className="role">SOFTWARE DEVELOPER</h2>
           </div>
         </div>
         </div>

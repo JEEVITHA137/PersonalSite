@@ -13,9 +13,9 @@ function Specailskills() {
                     <div className='row justify-content-center'>
                         <ul>
                         <div className="d-flex bulletin"><CgIcon.CgCheck className="icons"/><li>Html, Css</li></div>
-                        <div className="d-flex bulletin"><CgIcon.CgCheck className="icons"/> <li>Javascript</li></div>
-                        <div className="d-flex bulletin"><CgIcon.CgCheck className="icons"/> <li>React</li></div>
-                        <div className="d-flex bulletin"><CgIcon.CgCheck className="icons"/> <li>Node</li></div>
+                        <div className="d-flex bulletin"><CgIcon.CgCheck className="icons"/> <li>Javascript, Typescript</li></div>
+                        <div className="d-flex bulletin"><CgIcon.CgCheck className="icons"/> <li>React, Node</li></div>
+                        <div className="d-flex bulletin"><CgIcon.CgCheck className="icons"/> <li>Mongodb</li></div>
                         <div className="d-flex bulletin"><CgIcon.CgCheck className="icons"/> <li>Mysql, PostgreSql</li></div>
                         <div className="d-flex bulletin"><CgIcon.CgCheck className="icons"/>  <li>Sequelize</li></div>
                         <div className="d-flex bulletin"><CgIcon.CgCheck className="icons"/> <li>C, C++</li></div>

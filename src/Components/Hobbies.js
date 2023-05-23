@@ -22,8 +22,9 @@ function Hobbies() {
         </div>
         <div className="topic pb-1">Achievments</div>
         <div className="achievments row justify-content-center ">
+            <p className="d-flex"><img src='/acheivements.gif' alt=""/>Won the Winner cup in Intra Company Tournament at Klenty in Shuttle(2022-2023)</p>
             <p className="d-flex"><img src='/acheivements.gif' alt=""/>Won the First place in InterCollege Competition on ThrowBall(2018-2019)</p>
-            <p className="d-flex"><img src='/acheivements.gif' alt=""/>Won the second place in Zonnel BasketBall(2018-2019)</p>
+            <p className="d-flex"><img src='/acheivements.gif' alt=""/>Won the Second place in Zonnel BasketBall(2018-2019)</p>
             <p className="d-flex"><img src='/acheivements.gif' alt=""/>Won the Second place in InterCollege Competition on ThrowBall(2019-2020)</p>
         </div>
 

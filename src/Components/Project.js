@@ -4,17 +4,11 @@ function Projects() {
     return (
         <div class="projects container ">
             <div className="title pb-4">Projects</div>
-           
-            <div className="row d-flex align-items-center  pt-5">
-                <p className="col-md-6"><div className='d-flex title align-items-center justify-content-center'><img src='./portfolio.gif' alt=""/><h3>Portfolio</h3></div>The old version of this current Portfolio. Just to see how much improved when compared to the old version of myself
-                <br/> <a className="btn" href="https://github.com/JEEVITHA137/Mini_Project_" target="_blank" rel="noopener noreferrer">Live Link</a></p>
-                <img className="col-md-6 site-image" src="./portfolio.png" alt=""></img>
-            </div> 
 
             <div className="row d-flex align-items-center pt-5">
                 <img className=" col-md-7 site-image mt-2" src="./ScreenshotApp.png" alt=""></img>
                 <p className="col-md-5"><div className='d-flex title align-items-center justify-content-center'><img src='./screenshot.gif' alt=""/><h3>Screenshot Url</h3></div>A Screenshot App, it will give the full screenshot of the url you given. You can able to set the image quality, type of format you want either png or jpg and also you can able to download the image.
-                   <br/> <a className="btn" href="https://gv-screenshoturl.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Link </a></p>
+                   <br/> <a className="btn" href="https://github.com/JEEVITHA137/ScreenShotURL" target="_blank" rel="noopener noreferrer">Repository Link </a></p>
             </div>
 
             <div className="row d-flex align-items-center pt-5">
@@ -42,7 +36,7 @@ function Projects() {
 
             <div className="row d-flex align-items-center pt-5">
                 <p className="col-md-5"><div className='d-flex title align-items-center justify-content-center'><img src='./choclate-site.gif' className='p-1' alt=""/><h3>Choclate Site</h3></div>It is a FullStack Website. User can able to search the products using filters, add the products to cart, update the address and buy the products. Admin can able to see the products, change the quantity of the products, add the new products and update the status of ordered product.
-                    <br /><a className="btn" href="https://gvchoclatesite.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Link </a></p>
+                <br/> <a className="btn" href="https://github.com/JEEVITHA137/ChoclateFullStackSite" target="_blank" rel="noopener noreferrer">Repository Link </a></p>
                 <img className=" col-md-7 site-image rounded" src="./choclatesite.png" alt=""></img>
             </div>
 
